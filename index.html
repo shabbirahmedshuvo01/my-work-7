@@ -72,11 +72,12 @@
         </div>
         <div>
             <h1>2: What does javascript event loop do?</h1>
-            <p><strong>ans:</strong> Java needs to be compiled before it is run.Instead, an interpreter in the browser
-                reads over the
-                JavaScript code. interprets each line, and runs it. it will recommend the use of particular JavaScript
-                techniques.Compiled languages are converted directly into machine code that the processor can
-                execute.the code itself is platform independent.
+            <p><strong>ans:</strong>event loop is responsible for executing the code. collecting and processing events,
+                and executing queued sub-tasks. it may be stopped at any point by the runtime system to run some other
+                code in another thread.the setTimeout message will have to wait for other messages to be
+                processed.Calling setTimeout with a delay of zero milliseconds doesn't execute the callback function
+                after the given interval.
+
             </p>
         </div>
         <div>
